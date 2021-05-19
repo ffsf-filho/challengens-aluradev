@@ -1,0 +1,86 @@
+body{
+  color: #FFFFFF;  
+  background-color: #E5E5E5;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 1440px;
+  height: 1024px;
+  background-color: #051D3B;
+  border-style: solid 1px #051D3B;
+  border-radius: 40px;
+  padding: 32px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.div-logo {
+  top: 12px;
+  width: 145px;
+  height: 34.05px;  
+}
+
+.div-pesquisas {
+  left: 22.67%;
+  right: 22.67%;
+  padding: 0;
+}
+
+.input-pesquisa{
+  position: static;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-left: 167px;  
+  width: 752px;
+  height: 56px;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 8PX;
+  padding: 16px 294px 16px 14px;
+}
+
+/* @media screen and (min-width: 830px){
+  
+} */
+
+@media screen and (max-width: 768px){
+  main{
+    max-height: 1066px;
+    overflow-y: scroll;
+  }
+
+  .div-logo {
+    top: 11px;
+  }
+
+  .input-pesquisa{
+    position: absolute;
+    width: 431px;
+    margin-left: 40px;  
+  }
+}
+
+/* @media screen and (max-width: 426px){
+  
+} */
+
+@media screen and (max-width: 375px){
+  main {
+    max-height: 1248px;
+    border-radius: 24px;
+    overflow-y: scroll;
+  }
+
+  .div-logo {
+    top: 11px;
+  }
+}
