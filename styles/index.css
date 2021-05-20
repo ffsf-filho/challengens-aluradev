@@ -4,10 +4,7 @@ body{
 }
 
 main{
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  width: 1440px;
+  max-width: 1440px;
   height: 1024px;
   background-color: #051D3B;
   border-style: solid 1px #051D3B;
@@ -19,40 +16,70 @@ header {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  width: 1376px;
+  height: 56px;
 }
 
-.div-logo {
+.header__imgLogoAlura {
+  position: relative;
   top: 12px;
   width: 145px;
   height: 34.05px;  
 }
 
-.div-pesquisas {
-  left: 22.67%;
-  right: 22.67%;
-  padding: 0;
-}
-
-.input-pesquisa{
+.header__inputPesquisa{
   position: static;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
-  margin-left: 167px;  
+  left: 0px;
+  top: 0px;
+  padding: 0px;
   width: 752px;
   height: 56px;
+  margin-left: 167px;
   color: #FFFFFF;
   background: rgba(255, 255, 255, 0.16);
   border-radius: 8PX;
   padding: 16px 294px 16px 14px;
 }
 
+.header__perfil{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;/*106*/
+  height: 56px;
+  margin-left: 190px;/*206*/
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.herader__perfil__imgFotoPerfil{
+  width: 32px;
+  height: 32px;
+  top: 12px;
+  left: 12px;
+  border-radius: 100%;
+}
+
+.header__perfil__pNomePerfil{
+  width: 65px;/*42*/
+  height: 24px;
+  top: 16px;
+  left: 0px;/*52*/
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 /* @media screen and (min-width: 830px){
   
 } */
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
   main{
     max-height: 1066px;
     overflow-y: scroll;
@@ -67,13 +94,13 @@ header {
     width: 431px;
     margin-left: 40px;  
   }
-}
+} */
 
 /* @media screen and (max-width: 426px){
   
 } */
 
-@media screen and (max-width: 375px){
+/* @media screen and (max-width: 375px){
   main {
     max-height: 1248px;
     border-radius: 24px;
@@ -83,4 +110,4 @@ header {
   .div-logo {
     top: 11px;
   }
-}
+} */
