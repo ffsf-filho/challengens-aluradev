@@ -147,10 +147,24 @@ header {
   background-color: #6BD1FF;
 }
 
-.editorCodigo__textareaEditorCodigo{
+.editorCodigo__divEditorCodigoCodigo{
   width: 688px;
   height: 302px;
   padding: 16px;
+  border: solid 1px #141414;
+  border-radius: 8px;
+  background-color: #141414;
+}
+
+.editorCodigo__imgMacButton{
+  width: 52px;
+  height: 12px;
+  margin-bottom: 24px;
+}
+
+.editorCodigo__textareaEditorCodigo{
+  width: 656px;
+  height: 234px;
   font-family: Roboto Mono;
   font-size: 14px;
   font-style: normal;
@@ -158,11 +172,20 @@ header {
   line-height: 18px;
   letter-spacing: 0em;
   text-align: left;
+  resize: none;
   color: #FFFFFF;
-  border-radius: 8px;
+  border: 0 none;
+  box-shadow: 0 0 0 0;
+  outline: 0;
   background-color: #141414;
-  box-shadow: 0px 16px 24px 0px #0000003D;
 }
+
+.editorCodigo__textareaEditorCodigo:focus{
+  border: 0 none;
+  box-shadow: 0 0 0 0;
+  outline: 0
+}
+
 /* @media screen and (min-width: 830px){
   
 } */
