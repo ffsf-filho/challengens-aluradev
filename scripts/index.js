@@ -1,4 +1,4 @@
 function corBackground(valor){
-  let divMoldura = document.getElementById('testeMoldura')
+  let divMoldura = document.getElementById('divEditorCodigoMoldura')
   divMoldura.style.backgroundColor = valor
 }
