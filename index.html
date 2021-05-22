@@ -16,7 +16,7 @@
     <main>
       <header>
         <img id="imgLogoAlura" src="./images/Logo.svg" alt="Logo alura Dev" class="header__imgLogoAlura">
-        <input id="inputPesquisa" type="search" class="header__inputPesquisa" placeholder="Busque por algo" title="Campo texto para digitar algo para buscar"/>
+        <input id="inputPesquisa" type="search" class="header__inputPesquisa" placeholder="Busque por algo" title="Campo texto para digitar um valor para buscar"/>
         <div class="header__perfil">
           <img id="imgFotoPerfil" src="https://avatars.githubusercontent.com/u/70358338?v=4" class="herader__perfil__imgFotoPerfil" alt="Foto do perfil">
           <p id="pNomePerfil" class="header__perfil__pNomePerfil">Francisco</p>
@@ -37,7 +37,7 @@
       </nav>
       <section id="editorCodigo">
         <div class="editorCodigo__divEditorCodigo">
-          <div class="editorCodigo__divEditorCodigoMoldura">
+          <div id="testeMoldura" class="editorCodigo__divEditorCodigoMoldura">
             <div class="editorCodigo__divEditorCodigoCodigo">
               <img src="./images/mac_buttons.svg" class="editorCodigo__imgMacButton" alt="imagens de pontos simbolizando editor de código">
               <textarea name="textareaEditorCodigo" id="textareaEditorCodigo" class="editorCodigo__textareaEditorCodigo"  cols="30" rows="10"></textarea>
@@ -47,21 +47,22 @@
         </div>
         <div class="editorCodigo__divProjeto">
           <label id="labelProjeto" for="inputNomeProjeto" class="editorCodigo__labelProjeto">SEU PROJETO</label>
-          <input id="inputNomeProjeto" type="text" class="editorCodigo__inputNomeProjeto" placeholder="Nome do seu projeto">
-          <textarea name="textareaDescricao" id="textareaDescricao" class="editorCodigo__textareaDescricao" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
+          <input id="inputNomeProjeto" type="text" class="editorCodigo__inputNomeProjeto" placeholder="Nome do seu projeto" title="Campo texto para digitar o nome do projeto">
+          <textarea name="textareaDescricao" id="textareaDescricao" class="editorCodigo__textareaDescricao" cols="30" rows="10" placeholder="Descrição do seu projeto" title="Campo texto para escrever a descrição do seu projeto"></textarea>
           <label id="labelPersonilizacao" for="selectLanguage" class="editorCodigo__labelPersonilizacao">PERSONALIZAÇÃO</label>
-          <select name="selectLanguage" id="selectLanguage" class="editorCodigo__selectLanguage">
+          <select name="selectLanguage" id="selectLanguage" class="editorCodigo__selectLanguage" title="Escolha a linguagem do seu projeto">
             <option value="javascript" class="editorCodigo__selectLanguage__option" selected>JavaScript</option>
             <option value="html" class="editorCodigo__selectLanguage__option">HTML</option>
             <option value="css" class="editorCodigo__selectLanguage__option">CSS</option>
           </select>
-          <input id="inputColor" type="color" class="editorCodigo__inputColor" value="#6BD1FF" >
-<!--         <button>Salvar projeto</button> -->
+          <input id="inputColor" type="color" class="editorCodigo__inputColor" value="#6BD1FF" onInput="corBackground(this.value)" title="Escolha uma cor para o seu projeto" >
+          <button id="buttonSalvarProjeto" type="button"  class="editorCodigo__buttonSalvarProjeto">Salvar projeto</button>
         </div>
       </section>
       <section id="comunidade">
 
       </section>
     </main>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
