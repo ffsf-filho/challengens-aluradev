@@ -45,7 +45,18 @@
           </div>
           <button id="buttonHighlight" type="button"  class="editorCodigo__buttonHighlight">Visualizar com o highlight</button>
         </div>
-        <div class="editorCodigo__divProjeto"></div>
+        <div class="editorCodigo__divProjeto">
+          <label id="labelProjeto" for="inputNomeProjeto" class="editorCodigo__labelProjeto">SEU PROJETO</label>
+          <input id="inputNomeProjeto" type="text" class="editorCodigo__inputNomeProjeto" placeholder="Nome do seu projeto">
+          <textarea name="textareaDescricao" id="textareaDescricao" class="editorCodigo__textareaDescricao" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
+          <label id="labelPersonilizacao" for="selectLanguage" class="editorCodigo__labelPersonilizacao">PERSONALIZAÇÃO</label>
+        <select name="selectLanguage" id="selectLanguage" class="editorCodigo__selectLanguage">
+          <option value="javascript" class="editorCodigo__selectLanguage__option" selected>JavaScript</option>
+          <option value="html" class="editorCodigo__selectLanguage__option">HTML</option>
+          <option value="css" class="editorCodigo__selectLanguage__option">CSS</option>
+        </select>
+<!--         <button>Salvar projeto</button> -->
+        </div>
       </section>
       <section id="comunidade">
 
