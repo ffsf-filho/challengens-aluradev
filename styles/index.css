@@ -1,6 +1,13 @@
 body{
   color: #FFFFFF;  
   background-color: #E5E5E5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 main{
@@ -66,15 +73,96 @@ header {
   height: 24px;
   top: 16px;
   left: 0px;/*52*/
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 
+.menu__div{
+  position: absolute;
+  width: 189px;
+  height: 146px;
+  top: 128px;
+}
+
+.menu__div__pMenu{
+  width: 51px;
+  height: 18px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.4em;
+  margin-bottom: 8px;
+}
+
+.menu__div__editorCodigo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 189px;
+  height: 48px;
+  top: 16px;
+}
+
+.menu__div__imgIcoCode{
+  width: 48px;
+  height: 48px;
+}
+
+.menu__div__editorCodigo__pEditorCodigo{
+  width: 125px;
+  height: 24px;
+  top: 12px;
+  left: 64px;
+}
+.menu__div__comunidade{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 189px;
+  height: 48px;
+  top: 16px;
+  margin-top: 8px;
+}
+
+.menu__div__imgIcoUsers{
+  width: 48px;
+  height: 48px;
+}
+
+.menu__div__comunidade__pIconeComunidade{
+  text-align: left;  
+  width: 125px;/*96*/
+  height: 24px;
+  top: 12px;
+  left: 64px;
+  opacity: 56%;
+}
+
+.editorCodigo__divEditorCodigoMoldura{
+  position: absolute;
+  width: 752px;
+  height: 366px;
+  padding: 32px;
+  top: 128px;
+  left: 344px;
+  border-radius: 8px;
+  border-color: solid 1px #6BD1FF;
+  background-color: #6BD1FF;
+}
+
+.editorCodigo__textareaEditorCodigo{
+  width: 688px;
+  height: 302px;
+  padding: 16px;
+  font-family: Roboto Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: #141414;
+  box-shadow: 0px 16px 24px 0px #0000003D;
+}
 /* @media screen and (min-width: 830px){
   
 } */
