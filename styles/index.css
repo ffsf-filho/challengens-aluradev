@@ -292,9 +292,30 @@ header {
   background: #FFFFFF3D;
 }
 
+.editorCodigo__selectLanguage:focus{
+  border: solid 1px rgba(255, 255, 255, 0.16);
+}
+
 .editorCodigo__selectLanguage__option{
   color: #000000;
   background: #f5f2f2;
+}
+
+.editorCodigo__inputColor{
+  width: 272px;
+  height: 56px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  border: 1px solid #FFFFFF;
+  background: #C4C4C403;
+}
+
+.editorCodigo__inputColor:hover{
+  border: solid 2px rgb(194, 77, 178);
+}
+
+.editorCodigo__inputColor:focus{
+  border: 1px solid #FFFFFF;
 }
 
 /* @media screen and (min-width: 830px){
