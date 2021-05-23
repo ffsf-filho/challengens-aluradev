@@ -18,13 +18,15 @@
       <header>
         <img id="imgLogoAlura" src="./images/Logo.svg" alt="Logo alura Dev" class="header__imgLogoAlura">
         <input id="inputPesquisa" type="search" class="header__inputPesquisa" placeholder="Busque por algo" title="Campo texto para digitar um valor para buscar"/>
+        <img id="imgLupa" src="./images/lupa.svg" class="header__imgLupa" onClick="exibeCampoPesquisa(true)" alt="Lupa para exibir o campo de pesquisa">
+        <img id="imgIconeFecharLupa" src="./images/fechar.svg" hidden class="header__imgIconeFecharLupa" onClick="exibeCampoPesquisa()" alt="Icone do menu no formato de X">
         <div class="header__perfil">
           <img id="imgFotoPerfil" src="https://avatars.githubusercontent.com/u/70358338?v=4" class="herader__perfil__imgFotoPerfil" alt="Foto do perfil">
           <p id="pNomePerfil" class="header__perfil__pNomePerfil">Francisco</p>
         </div>
         <nav id="menuPerfil">
           <img id="imgIconeHamburger" src="./images/hamburger.svg" class="menuPerfil__imgIconeHamburger" onClick="exibeMenuPerfil(true)" alt="Icone do menu no formato de hamburguer">
-          <img id="imgIconeFechar" hidden src="./images/fechar.svg" class="menuPerfil__imgIconeHamburger" onClick="exibeMenuPerfil()" alt="Icone do menu no formato de hamburguer">
+          <img id="imgIconeFechar" hidden src="./images/fechar.svg" class="menuPerfil__imgIconeHamburger" onClick="exibeMenuPerfil()" alt="Icone do menu no formato de X">
           <div id="headerMenuPerfil" class="header__menuPerfil hideMenu">
             <div class="menu__div__editorCodigo">
               <img id="imgIcoCode" src="./images/Icon-code.svg" class="menu__div__imgIcoCode" alt="Icone do Editor de código">

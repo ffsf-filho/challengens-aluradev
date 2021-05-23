@@ -18,3 +18,25 @@ function exibeMenuPerfil(visivel = false){
     divHeaderMenuPerfil.className = "header__menuPerfil hideMenu" 
   }
 }
+
+function exibeCampoPesquisa(visivel = false){
+  let imgLogoAlura = document.getElementById('imgLogoAlura')
+  let inputPesquisa = document.getElementById('inputPesquisa')
+  let imgLupa = document.getElementById('imgLupa')
+  let imgIconeFecharLupa =  document.getElementById('imgIconeFecharLupa')
+  let imgIconeHamburger = document.getElementById('imgIconeHamburger')
+
+  if(visivel){
+    imgLogoAlura.setAttribute("hidden", "true")
+    imgLupa.setAttribute("hidden", "true")
+    imgIconeHamburger.setAttribute("hidden", "true")
+    imgIconeFecharLupa.removeAttribute('hidden')
+    inputPesquisa.className = "header__inputPesquisa exibeMenu"
+  } else {
+    imgLogoAlura.removeAttribute("hidden")
+    imgLupa.removeAttribute("hidden")
+    imgIconeHamburger.removeAttribute("hidden")
+    imgIconeFecharLupa.setAttribute("hidden", "true")
+    inputPesquisa.className = "header__inputPesquisa"
+  }
+}

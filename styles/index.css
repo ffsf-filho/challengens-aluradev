@@ -15,7 +15,7 @@ main{
   height: 100vh;/*1024px*/
   background-color: #051D3B;
   border-style: solid 1px #051D3B;
-  border-radius: 40px;
+  /* border-radius: 40px; */
   padding: 32px;
 }
 
@@ -32,6 +32,11 @@ header {
   top: 12px;
   width: 145px;
   height: 34.05px;  
+}
+
+.header__imgLupa{
+  display: none;
+  left: -5000px;
 }
 
 .header__inputPesquisa{
@@ -338,4 +343,3 @@ header {
 
 /* @media screen and (min-width: 830px){} */
 /* @media screen and (max-width: 426px){} */
-/* @media screen and (max-width: 375px){} */
