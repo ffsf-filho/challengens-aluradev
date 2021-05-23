@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/index_reponsivo.css">
   </head>
   <body>
     <main>
@@ -21,6 +22,25 @@
           <img id="imgFotoPerfil" src="https://avatars.githubusercontent.com/u/70358338?v=4" class="herader__perfil__imgFotoPerfil" alt="Foto do perfil">
           <p id="pNomePerfil" class="header__perfil__pNomePerfil">Francisco</p>
         </div>
+        <nav id="menuPerfil">
+          <img id="imgIconeHamburger" src="./images/hamburger.svg" class="menuPerfil__imgIconeHamburger" onClick="exibeMenuPerfil(true)" alt="Icone do menu no formato de hamburguer">
+          <img id="imgIconeFechar" hidden src="./images/fechar.svg" class="menuPerfil__imgIconeHamburger" onClick="exibeMenuPerfil()" alt="Icone do menu no formato de hamburguer">
+          <div id="headerMenuPerfil" class="header__menuPerfil hideMenu">
+            <div class="menu__div__editorCodigo">
+              <img id="imgIcoCode" src="./images/Icon-code.svg" class="menu__div__imgIcoCode" alt="Icone do Editor de código">
+              <p id="pEditorCodigo" class="menu__div__editorCodigo__pEditorCodigo">Editor de código</p>
+            </div>
+            <div class="menu__div__comunidade">
+              <img id="imgIcoUsers" src="./images/icon_users.svg" class="menu__div__imgIcoUsers" alt="Icone da Comunidade">
+              <p id="pIconeComunidade" class="menu__div__comunidade__pIconeComunidade">Comunidade</p>
+            </div>
+            <hr/>     
+            <div class="header__menuPerfil__Perfil">
+              <img id="imgFotoPerfil" src="https://avatars.githubusercontent.com/u/70358338?v=4" class="herader__perfil__imgFotoPerfil" alt="Foto do perfil">
+              <p id="pNomePerfil" class="header__perfil__pNomePerfil">Francisco</p>
+            </div>                   
+          </div>
+        </nav>
       </header>
       <nav id="menu">
         <div class="menu__div">
@@ -50,12 +70,14 @@
           <input id="inputNomeProjeto" type="text" class="editorCodigo__inputNomeProjeto" placeholder="Nome do seu projeto" title="Campo texto para digitar o nome do projeto">
           <textarea name="textareaDescricao" id="textareaDescricao" class="editorCodigo__textareaDescricao" cols="30" rows="10" placeholder="Descrição do seu projeto" title="Campo texto para escrever a descrição do seu projeto"></textarea>
           <label id="labelPersonilizacao" for="selectLanguage" class="editorCodigo__labelPersonilizacao">PERSONALIZAÇÃO</label>
-          <select name="selectLanguage" id="selectLanguage" class="editorCodigo__selectLanguage" title="Escolha a linguagem do seu projeto">
-            <option value="javascript" class="editorCodigo__selectLanguage__option" selected>JavaScript</option>
-            <option value="html" class="editorCodigo__selectLanguage__option">HTML</option>
-            <option value="css" class="editorCodigo__selectLanguage__option">CSS</option>
-          </select>
-          <input id="inputColor" type="color" class="editorCodigo__inputColor" value="#6BD1FF" onInput="corBackground(this.value)" title="Escolha uma cor para o seu projeto" >
+          <div class="divPersonalizacao">
+            <select name="selectLanguage" id="selectLanguage" class="editorCodigo__selectLanguage" title="Escolha a linguagem do seu projeto">
+              <option value="javascript" class="editorCodigo__selectLanguage__option" selected>JavaScript</option>
+              <option value="html" class="editorCodigo__selectLanguage__option">HTML</option>
+              <option value="css" class="editorCodigo__selectLanguage__option">CSS</option>
+            </select>
+            <input id="inputColor" type="color" class="editorCodigo__inputColor" value="#6BD1FF" onInput="corBackground(this.value)" title="Escolha uma cor para o seu projeto" >
+          </div>
           <button id="buttonSalvarProjeto" type="button"  class="editorCodigo__buttonSalvarProjeto">Salvar projeto</button>
         </div>
       </section>
