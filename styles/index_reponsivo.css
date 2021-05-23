@@ -2,6 +2,7 @@
   main{
     height: 1066px;
     overflow-y: scroll;
+    background-color: burlywood;
   }
 
   header {
@@ -155,6 +156,7 @@
   main{
     height: 1066px;
     overflow-y: scroll;
+    background-color: coral;
   }
 
   header {
