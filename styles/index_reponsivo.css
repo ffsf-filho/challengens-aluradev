@@ -1,3 +1,5 @@
+/* @media screen and (min-width: 830px){} */
+
 @media screen and (max-width: 768px){
   main{
     height: 1066px;
@@ -150,6 +152,8 @@
     width: 704px;
   }
 }
+
+/* @media screen and (max-width: 426px){} */
 
 @media screen and (max-width: 375px){
   main{
@@ -322,5 +326,180 @@
 
   .editorCodigo__buttonSalvarProjeto{
     width: 343px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  main{
+    height: 1248px;
+    overflow-y: scroll;
+    padding: 16px;
+  }
+
+  header {
+    width: 328px;
+  }
+
+  .header__imgLogoAlura {
+    top: 11px;
+  }
+
+  .header__inputPesquisa{
+    display: none;
+    height: 55px;
+    width: 287px;
+    margin-left: 0px;
+  }
+
+  .header__imgLupa{
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    top: 19.25px;
+    left: 108px;
+  }
+  
+  .header__imgIconeFecharLupa{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 19.25px;
+    left: 0px;
+  }
+
+  .header__perfil{
+    display: none;
+    margin-left: -5000px;
+  }
+
+  #menuPerfil{
+    display: block;
+  }
+
+  .menuPerfil__imgIconeHamburger{
+    position: absolute;
+    width: 20px;
+    height: 17.5px;
+    top: 35.25px;
+    left: 325px;
+  }
+
+  .header__menuPerfil{
+    position: absolute;
+    z-index: 200;
+    flex-direction: column;
+    width: 254px;
+    height: 1133.5px;
+    top: 75px;
+    left: 89.5px;
+    padding: 24px;
+    margin-right: 12px;
+    border-radius: 8px;
+    background: #2D415B;
+  }
+  
+  .hideMenu{
+    display: none;
+  }
+
+  .exibeMenu{
+    display: flex;
+  }
+
+  .menu__div__editorCodigo{
+    top: 0px;
+  }
+
+  hr{
+    width: 206px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    border: solid 1px rgba(255, 255, 255, 0.16);
+  }
+
+  .header__menuPerfil__Perfil{
+    display: flex;
+    flex-direction: row;
+    width: 206px;
+    height: 48px;
+    padding: 0px 0px 0px 12px;
+  }
+
+  .herader__perfil__imgFotoPerfil{
+    top: 0px;
+  }
+  
+  .header__perfil__pNomePerfil{
+    margin-top: 4px;
+    margin-left: 8px;
+  }
+
+  #menu{
+    display: none;
+    margin-left: -5000px;
+  }
+
+  .editorCodigo__divEditorCodigoMoldura{
+    width: 328px;
+    height: 492px;
+    top: 112px;
+    left: 16px;
+    padding: 16px;
+  }
+
+  .editorCodigo__divEditorCodigoCodigo{
+    width: 296px;
+    height: 460px;
+  }
+
+  .editorCodigo__textareaEditorCodigo{
+    width: 264px;
+    height: 428px;
+  }
+
+  .editorCodigo__buttonHighlight{
+    width: 328px;
+    top: 636px;
+    left: 16px;
+  }
+
+  .editorCodigo__divProjeto{
+    top: 732px;
+    left: 16px;
+  }
+
+  .editorCodigo__labelProjeto{
+    width: 328px;
+  }
+  
+  .editorCodigo__inputNomeProjeto{
+    width: 328px;
+  }
+
+  .editorCodigo__textareaDescricao{
+    width: 328px;
+  }
+
+  .editorCodigo__labelPersonilizacao{
+    width: 328px;
+  }
+
+  .divPersonalizacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .editorCodigo__selectLanguage{
+    width: 328px;
+  }
+
+  .editorCodigo__inputColor{
+    width: 328px;
+  }
+
+  .editorCodigo__buttonSalvarProjeto{
+    width: 328px;
   }
 }
