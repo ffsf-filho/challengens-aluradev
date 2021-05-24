@@ -9,10 +9,6 @@ body{
   letter-spacing: 0em;
   text-align: left;
   background-color: #051D3B;
-}
-
-main{
-  border-style: solid 1px #051D3B;
   padding: 32px;
 }
 
@@ -43,6 +39,10 @@ header {
 .header__inputPesquisa:hover{
   border: solid 2px rgba(80, 129, 251, 1);
   background: #1f1c1c3d;
+}
+
+.header__imgLupa{
+  display: none;
 }
 
 .header__perfil{
