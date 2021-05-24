@@ -45,6 +45,10 @@ header {
   display: none;
 }
 
+.header__imgIconeFecharLupa{
+  display: none;
+}
+
 .header__perfil{
   position: relative;
   display: flex;
@@ -253,6 +257,13 @@ header {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.4em;
+}
+
+.divPersonalizacao{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 272px;
 }
 
 .editorCodigo__selectLanguage{
