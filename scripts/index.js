@@ -34,11 +34,13 @@ function exibeCampoPesquisa(visivel = false){
     imgLupa.setAttribute("hidden", "true")
     imgIconeHamburger.setAttribute("hidden", "true")
     imgIconeFecharLupa.removeAttribute('hidden')
+    imgIconeFecharLupa.style.display = "flex"
     inputPesquisa.className = "header__inputPesquisa exibeMenu"
   } else {
     imgLogoAlura.removeAttribute("hidden")
     imgLupa.removeAttribute("hidden")
     imgIconeHamburger.removeAttribute("hidden")
+    imgIconeFecharLupa.style.display = "none"
     imgIconeFecharLupa.setAttribute("hidden", "true")
     inputPesquisa.className = "header__inputPesquisa"
   }
