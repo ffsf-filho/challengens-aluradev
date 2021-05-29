@@ -1,4 +1,4 @@
-//muda a cor do backgroud ja janela de código em função da cor escolhida pelo usuário
+//Muda a cor do backgroud da janela de código em função da cor escolhida pelo usuário
 function corBackground(valor){
   let divMoldura = document.getElementById('divEditorCodigoMoldura')
   divMoldura.style.backgroundColor = valor
@@ -122,7 +122,7 @@ function mensagemParaUsuario(texto, erro = false){
 
   setTimeout(function(){
     mensagem.setAttribute('hidden', "true")
-  }, 5000)
+  }, 3000)
 }
 
 //Função que faz a gravação do projeto
