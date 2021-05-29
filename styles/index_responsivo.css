@@ -82,6 +82,11 @@
     display: none;
   }
 
+  .editorCodigo__labelMenssagem{
+    width: 766px;
+    left: 32px;
+  }
+
   .editorCodigo__divEditorCodigoMoldura{
     width: 766px;
     left: 32px;
@@ -146,6 +151,10 @@
     left: 514.5px;
   }
 
+  .editorCodigo__labelMenssagem{
+    width: 736px;
+  }
+
   .editorCodigo__divEditorCodigoMoldura{
     width: 736px;
     left: 32px;
@@ -194,6 +203,10 @@
 
   .header__menuPerfil{
     left: 482.5px;
+  }
+
+  .editorCodigo__labelMenssagem{
+    width: 704px;
   }
 
   .editorCodigo__divEditorCodigoMoldura{
@@ -311,6 +324,10 @@
   .exibeMenu{
     display: flex;
   }
+  
+  .editorCodigo__labelMenssagem{
+    width: 362px;
+  }
 
   .editorCodigo__divEditorCodigoMoldura{
     width: 362px;
@@ -394,6 +411,12 @@
     left: 105px;
   }
   
+  .editorCodigo__labelMenssagem{
+    width: 343px;
+    top: 78px;
+    left: 16px;
+  }
+
   .editorCodigo__divEditorCodigoMoldura{
     width: 343px;
     height: 492px;
@@ -459,6 +482,10 @@
 
   .header__menuPerfil{
     left: 90px;
+  }
+  
+  .editorCodigo__labelMenssagem{
+    width: 328px;
   }
 
   .editorCodigo__divEditorCodigoMoldura{
