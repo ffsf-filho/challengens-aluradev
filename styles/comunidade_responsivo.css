@@ -33,7 +33,7 @@
     z-index: 200;
     flex-direction: column;
     width: 254px;
-    height: 932px;
+    height: 100vh;
     top: 95px;
     left: 544px;
     padding: 24px;
@@ -82,59 +82,24 @@
     display: none;
   }
 
-  .editorCodigo__labelMenssagem{
-    width: 766px;
-    left: 32px;
-  }
-
-  .editorCodigo__divEditorCodigoMoldura{
-    width: 766px;
-    left: 32px;
-  }
-
-  .editorCodigo__divEditorCodigoCodigo{
-    width: 702px;
-  }
-
-  .editorCodigo__textareaEditorCodigo{
-    width: 670px;
-    line-height: 18.46px;
-  }
-
-  .editorCodigo__buttonHighlight{
-    width: 766px;
-    left: 32px;
-  }
-
-  .editorCodigo__divProjeto{
-    top: 622px;
-    left: 32px;
+  .cards{
+    width: 100%;
+    left: 0px;
+    padding: 32px;
   }
   
-  .editorCodigo__inputNomeProjeto{
-    width: 766px;
+  .cards__card{
+    width: 367px;
   }
 
-  .editorCodigo__textareaDescricao{
-    width: 766px;
+  .cards__cardMoldura{
+    width: 367px;
+    padding: 12px;
   }
 
-  .divPersonalizacao{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-  }
-  
-  .editorCodigo__selectLanguage{
-    width: 370px;
-  }
-
-  .editorCodigo__inputColor{
-    width: 350px;
-  }
-
-  .editorCodigo__buttonSalvarProjeto{
-    width: 766px;
+  .cards__codigo{
+    width: 343px;
+    height: 264px;
   }
 }
 
@@ -150,46 +115,17 @@
   .header__menuPerfil{
     left: 514.5px;
   }
-
-  .editorCodigo__labelMenssagem{
-    width: 736px;
+  
+  .cards__card{
+    width: 362px;
   }
 
-  .editorCodigo__divEditorCodigoMoldura{
-    width: 736px;
-    left: 32px;
+  .cards__cardMoldura{
+    width: 362px;
   }
 
-  .editorCodigo__divEditorCodigoCodigo{
-    width: 672px;
-  }
-
-  .editorCodigo__textareaEditorCodigo{
-    width: 640px;
-  }
-
-  .editorCodigo__buttonHighlight{
-    width: 736px;
-  }
-
-  .editorCodigo__inputNomeProjeto{
-    width: 736px;
-  }
-
-  .editorCodigo__textareaDescricao{
-    width: 736px;
-  }
-
-  .editorCodigo__selectLanguage{
-    width: 355px;
-  }
-
-  .editorCodigo__inputColor{
-    width: 335px;
-  }
-
-  .editorCodigo__buttonSalvarProjeto{
-    width: 736px;
+  .cards__codigo{
+    width: 338px;
   }
 }
 
@@ -205,64 +141,18 @@
     left: 482.5px;
   }
 
-  .editorCodigo__labelMenssagem{
+  .cards__card{
     width: 704px;
   }
 
-  .editorCodigo__divEditorCodigoMoldura{
+  .cards__cardMoldura{
     width: 704px;
+    padding: 24px;
   }
 
-  .editorCodigo__divEditorCodigoCodigo{
-    width: 640px;
-    height: 302px;
-  }
-
-  .editorCodigo__textareaEditorCodigo{
-    width: 608px;
-    height: 234px;
-  }
-
-  .editorCodigo__buttonHighlight{
-    width: 704px;
-    left: 32px;
-  }
-
-  .editorCodigo__divProjeto{
-    top: 622px;
-    left: 32px;
-  }
-
-  .editorCodigo__labelProjeto{
-    width: 704px;
-  }
-  
-  .editorCodigo__inputNomeProjeto{
-    width: 704px;
-  }
-
-  .editorCodigo__textareaDescricao{
-    width: 704px;
-  }
-
-  .editorCodigo__labelPersonilizacao{
-    width: 736px;
-  }
-
-  .divPersonalizacao{
-    width: 704px;
-  }
-  
-  .editorCodigo__selectLanguage{
-    width: 344px;
-  }
-
-  .editorCodigo__inputColor{
-    width: 328px;
-  }
-
-  .editorCodigo__buttonSalvarProjeto{
-    width: 704px;
+  .cards__codigo{
+    width: 656px;
+    height: 240px;
   }
 }
 
@@ -325,70 +215,30 @@
     display: flex;
   }
   
-  .editorCodigo__labelMenssagem{
-    width: 362px;
+  .cards{
+    top: 100px;
   }
 
-  .editorCodigo__divEditorCodigoMoldura{
-    width: 362px;
-    height: 492px;
+  .cards__card{
+    width: 378px;
   }
 
-  .editorCodigo__divEditorCodigoCodigo{
-    width: 298px;
-    height: 428px;
+  .cards__cardMoldura{
+    width: 378px;
+    padding: 12px;
   }
 
-  .editorCodigo__textareaEditorCodigo{
-    width: 263px;
-    height: 392px;
-  }
-
-  .editorCodigo__buttonHighlight{
-    width: 362px;
-    top: 636px;
-  }
-
-  .editorCodigo__divProjeto{
-    top: 732px;
-  }
-
-  .editorCodigo__labelProjeto{
-    width: 362px;
-  }
-  
-  .editorCodigo__inputNomeProjeto{
-    width: 362px;
-  }
-
-  .editorCodigo__textareaDescricao{
-    width: 362px;
-  }
-
-  .editorCodigo__labelPersonilizacao{
-    width: 362px;
-  }
-
-  .divPersonalizacao{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .editorCodigo__selectLanguage{
-    width: 362px;
-  }
-
-  .editorCodigo__inputColor{
-    width: 362px;
-  }
-
-  .editorCodigo__buttonSalvarProjeto{
-    width: 362px;
+  .cards__codigo{
+    width: 354px;
+    height: 264px;
   }
 }
 
 @media screen and (max-width: 375px){
+  .header__imgLogoAlura {
+    margin-left: -16px;
+  }
+
   .header__imgLupa{
     top: 2.25px;
     left: 108px;
@@ -411,67 +261,21 @@
     left: 105px;
   }
   
-  .editorCodigo__labelMenssagem{
-    width: 343px;
-    top: 78px;
-    left: 16px;
-  }
-
-  .editorCodigo__divEditorCodigoMoldura{
-    width: 343px;
-    height: 492px;
-    top: 110px;
-    left: 16px;
+  .cards{
     padding: 16px;
   }
 
-  .editorCodigo__divEditorCodigoCodigo{
-    width: 311px;
-    height: 460px;
-  }
-
-  .editorCodigo__textareaEditorCodigo{
-    width: 279px;
-    height: 392px;
-  }
-
-  .editorCodigo__buttonHighlight{
-    width: 343px;
-    top: 636px;
-    left: 16px;
-  }
-
-  .editorCodigo__divProjeto{
-    top: 732px;
-    left: 16px;
-  }
-
-  .editorCodigo__labelProjeto{
-    width: 343px;
-  }
-  
-  .editorCodigo__inputNomeProjeto{
+  .cards__card{
     width: 343px;
   }
 
-  .editorCodigo__textareaDescricao{
+  .cards__cardMoldura{
     width: 343px;
   }
 
-  .editorCodigo__labelPersonilizacao{
-    width: 343px;
-  }
-  
-  .editorCodigo__selectLanguage{
-    width: 343px;
-  }
-
-  .editorCodigo__inputColor{
-    width: 343px;
-  }
-
-  .editorCodigo__buttonSalvarProjeto{
-    width: 343px;
+  .cards__codigo{
+    width: 319px;
+    height: 264px;
   }
 }
 
@@ -484,59 +288,15 @@
     left: 90px;
   }
   
-  .editorCodigo__labelMenssagem{
+  .cards__card{
     width: 328px;
   }
 
-  .editorCodigo__divEditorCodigoMoldura{
-    width: 328px;
-    height: 492px;
-  }
-
-  .editorCodigo__divEditorCodigoCodigo{
-    width: 296px;
-    height: 460px;
-  }
-
-  .editorCodigo__textareaEditorCodigo{
-    width: 264px;
-    height: 428px;
-  }
-
-  .editorCodigo__buttonHighlight{
-    width: 328px;
-    top: 636px;
-  }
-
-  .editorCodigo__divProjeto{
-    top: 732px;
-  }
-
-  .editorCodigo__labelProjeto{
-    width: 328px;
-  }
-  
-  .editorCodigo__inputNomeProjeto{
+  .cards__cardMoldura{
     width: 328px;
   }
 
-  .editorCodigo__textareaDescricao{
-    width: 328px;
-  }
-
-  .editorCodigo__labelPersonilizacao{
-    width: 328px;
-  }
-
-  .editorCodigo__selectLanguage{
-    width: 328px;
-  }
-
-  .editorCodigo__inputColor{
-    width: 328px;
-  }
-
-  .editorCodigo__buttonSalvarProjeto{
-    width: 328px;
+  .cards__codigo{
+    width: 302px;
   }
 }
