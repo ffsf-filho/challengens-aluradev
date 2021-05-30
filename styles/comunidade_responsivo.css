@@ -1,0 +1,542 @@
+@media screen and (max-width: 830px){
+  .header__imgLogoAlura {
+    top: 11px;
+  }
+
+  .header__inputPesquisa{
+    width: 500px;
+    margin-left: 40px;
+  }
+
+  .header__imgLupa{
+    display: none;
+  }
+
+  .header__perfil{
+    display: none;
+  }
+
+  #menuPerfil{
+    display: block;
+  }
+
+  .menuPerfil__imgIconeHamburger{
+    position: relative;
+    width: 20px;
+    height: 17.5px;
+    top: 19.25px;
+    left: 58px;
+  }
+
+  .header__menuPerfil{
+    position: absolute;
+    z-index: 200;
+    flex-direction: column;
+    width: 254px;
+    height: 932px;
+    top: 95px;
+    left: 544px;
+    padding: 24px;
+    margin-right: 12px;
+    border-radius: 8px;
+    background: #2D415B;
+  }
+  
+  .hideMenu{
+    display: none;
+  }
+
+  .exibeMenu{
+    display: flex;
+  }
+
+  .menu__div__editorCodigo{
+    top: 0px;
+  }
+
+  hr{
+    width: 206px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    border: solid 1px rgba(255, 255, 255, 0.16);
+  }
+
+  .header__menuPerfil__Perfil{
+    display: flex;
+    flex-direction: row;
+    width: 206px;
+    height: 48px;
+    padding: 0px 0px 0px 12px;
+  }
+
+  .herader__perfil__imgFotoPerfil{
+    top: 0px;
+  }
+  
+  .header__perfil__pNomePerfil{
+    margin-top: 4px;
+    margin-left: 8px;
+  }
+
+  #menu{
+    display: none;
+  }
+
+  .editorCodigo__labelMenssagem{
+    width: 766px;
+    left: 32px;
+  }
+
+  .editorCodigo__divEditorCodigoMoldura{
+    width: 766px;
+    left: 32px;
+  }
+
+  .editorCodigo__divEditorCodigoCodigo{
+    width: 702px;
+  }
+
+  .editorCodigo__textareaEditorCodigo{
+    width: 670px;
+    line-height: 18.46px;
+  }
+
+  .editorCodigo__buttonHighlight{
+    width: 766px;
+    left: 32px;
+  }
+
+  .editorCodigo__divProjeto{
+    top: 622px;
+    left: 32px;
+  }
+  
+  .editorCodigo__inputNomeProjeto{
+    width: 766px;
+  }
+
+  .editorCodigo__textareaDescricao{
+    width: 766px;
+  }
+
+  .divPersonalizacao{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  
+  .editorCodigo__selectLanguage{
+    width: 370px;
+  }
+
+  .editorCodigo__inputColor{
+    width: 350px;
+  }
+
+  .editorCodigo__buttonSalvarProjeto{
+    width: 766px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .header__inputPesquisa{
+    width: 470px;
+  }
+  
+  .header__imgLupa{
+    display: none;
+  }
+
+  .header__menuPerfil{
+    left: 514.5px;
+  }
+
+  .editorCodigo__labelMenssagem{
+    width: 736px;
+  }
+
+  .editorCodigo__divEditorCodigoMoldura{
+    width: 736px;
+    left: 32px;
+  }
+
+  .editorCodigo__divEditorCodigoCodigo{
+    width: 672px;
+  }
+
+  .editorCodigo__textareaEditorCodigo{
+    width: 640px;
+  }
+
+  .editorCodigo__buttonHighlight{
+    width: 736px;
+  }
+
+  .editorCodigo__inputNomeProjeto{
+    width: 736px;
+  }
+
+  .editorCodigo__textareaDescricao{
+    width: 736px;
+  }
+
+  .editorCodigo__selectLanguage{
+    width: 355px;
+  }
+
+  .editorCodigo__inputColor{
+    width: 335px;
+  }
+
+  .editorCodigo__buttonSalvarProjeto{
+    width: 736px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header__inputPesquisa{
+    width: 431px;
+  }
+  .header__imgLupa{
+    display: none;
+  }
+
+  .header__menuPerfil{
+    left: 482.5px;
+  }
+
+  .editorCodigo__labelMenssagem{
+    width: 704px;
+  }
+
+  .editorCodigo__divEditorCodigoMoldura{
+    width: 704px;
+  }
+
+  .editorCodigo__divEditorCodigoCodigo{
+    width: 640px;
+    height: 302px;
+  }
+
+  .editorCodigo__textareaEditorCodigo{
+    width: 608px;
+    height: 234px;
+  }
+
+  .editorCodigo__buttonHighlight{
+    width: 704px;
+    left: 32px;
+  }
+
+  .editorCodigo__divProjeto{
+    top: 622px;
+    left: 32px;
+  }
+
+  .editorCodigo__labelProjeto{
+    width: 704px;
+  }
+  
+  .editorCodigo__inputNomeProjeto{
+    width: 704px;
+  }
+
+  .editorCodigo__textareaDescricao{
+    width: 704px;
+  }
+
+  .editorCodigo__labelPersonilizacao{
+    width: 736px;
+  }
+
+  .divPersonalizacao{
+    width: 704px;
+  }
+  
+  .editorCodigo__selectLanguage{
+    width: 344px;
+  }
+
+  .editorCodigo__inputColor{
+    width: 328px;
+  }
+
+  .editorCodigo__buttonSalvarProjeto{
+    width: 704px;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .header__imgLogoAlura {
+    top: 0px;
+  }
+
+  .header__inputPesquisa{
+    display: none;
+    height: 55px;
+    width: 287px;
+    margin-left: 0px;
+  }
+
+  .header__imgLupa{
+    position: relative;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    top: 2.25px;
+    left: 150px;
+  }
+
+  .header__imgIconeFecharLupa{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 19.25px;
+    left: 32px;
+  }
+
+  .menuPerfil__imgIconeHamburger{
+    position: absolute;
+    width: 20px;
+    height: 17.5px;
+    top: 35.25px;
+    left: 374px;
+  }
+
+  .header__menuPerfil{
+    position: absolute;
+    z-index: 200;
+    flex-direction: column;
+    width: 254px;
+    height: 1133.5px;
+    top: 75px;
+    left: 140px;
+    padding: 24px;
+    margin-right: 12px;
+    border-radius: 8px;
+    background: #2D415B;
+  }
+  
+  .hideMenu{
+    display: none;
+  }
+
+  .exibeMenu{
+    display: flex;
+  }
+  
+  .editorCodigo__labelMenssagem{
+    width: 362px;
+  }
+
+  .editorCodigo__divEditorCodigoMoldura{
+    width: 362px;
+    height: 492px;
+  }
+
+  .editorCodigo__divEditorCodigoCodigo{
+    width: 298px;
+    height: 428px;
+  }
+
+  .editorCodigo__textareaEditorCodigo{
+    width: 263px;
+    height: 392px;
+  }
+
+  .editorCodigo__buttonHighlight{
+    width: 362px;
+    top: 636px;
+  }
+
+  .editorCodigo__divProjeto{
+    top: 732px;
+  }
+
+  .editorCodigo__labelProjeto{
+    width: 362px;
+  }
+  
+  .editorCodigo__inputNomeProjeto{
+    width: 362px;
+  }
+
+  .editorCodigo__textareaDescricao{
+    width: 362px;
+  }
+
+  .editorCodigo__labelPersonilizacao{
+    width: 362px;
+  }
+
+  .divPersonalizacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .editorCodigo__selectLanguage{
+    width: 362px;
+  }
+
+  .editorCodigo__inputColor{
+    width: 362px;
+  }
+
+  .editorCodigo__buttonSalvarProjeto{
+    width: 362px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .header__imgLupa{
+    top: 2.25px;
+    left: 108px;
+  }
+
+  .header__inputPesquisa{
+    margin-left: -10px;
+  }
+
+  .header__imgIconeFecharLupa{
+    left: 12px;
+  }
+
+  .menuPerfil__imgIconeHamburger{
+    top: 35.25px;
+    left: 325px;
+  }
+
+  .header__menuPerfil{
+    left: 105px;
+  }
+  
+  .editorCodigo__labelMenssagem{
+    width: 343px;
+    top: 78px;
+    left: 16px;
+  }
+
+  .editorCodigo__divEditorCodigoMoldura{
+    width: 343px;
+    height: 492px;
+    top: 110px;
+    left: 16px;
+    padding: 16px;
+  }
+
+  .editorCodigo__divEditorCodigoCodigo{
+    width: 311px;
+    height: 460px;
+  }
+
+  .editorCodigo__textareaEditorCodigo{
+    width: 279px;
+    height: 392px;
+  }
+
+  .editorCodigo__buttonHighlight{
+    width: 343px;
+    top: 636px;
+    left: 16px;
+  }
+
+  .editorCodigo__divProjeto{
+    top: 732px;
+    left: 16px;
+  }
+
+  .editorCodigo__labelProjeto{
+    width: 343px;
+  }
+  
+  .editorCodigo__inputNomeProjeto{
+    width: 343px;
+  }
+
+  .editorCodigo__textareaDescricao{
+    width: 343px;
+  }
+
+  .editorCodigo__labelPersonilizacao{
+    width: 343px;
+  }
+  
+  .editorCodigo__selectLanguage{
+    width: 343px;
+  }
+
+  .editorCodigo__inputColor{
+    width: 343px;
+  }
+
+  .editorCodigo__buttonSalvarProjeto{
+    width: 343px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .header__imgLupa{
+    left: 108px;
+  }
+
+  .header__menuPerfil{
+    left: 90px;
+  }
+  
+  .editorCodigo__labelMenssagem{
+    width: 328px;
+  }
+
+  .editorCodigo__divEditorCodigoMoldura{
+    width: 328px;
+    height: 492px;
+  }
+
+  .editorCodigo__divEditorCodigoCodigo{
+    width: 296px;
+    height: 460px;
+  }
+
+  .editorCodigo__textareaEditorCodigo{
+    width: 264px;
+    height: 428px;
+  }
+
+  .editorCodigo__buttonHighlight{
+    width: 328px;
+    top: 636px;
+  }
+
+  .editorCodigo__divProjeto{
+    top: 732px;
+  }
+
+  .editorCodigo__labelProjeto{
+    width: 328px;
+  }
+  
+  .editorCodigo__inputNomeProjeto{
+    width: 328px;
+  }
+
+  .editorCodigo__textareaDescricao{
+    width: 328px;
+  }
+
+  .editorCodigo__labelPersonilizacao{
+    width: 328px;
+  }
+
+  .editorCodigo__selectLanguage{
+    width: 328px;
+  }
+
+  .editorCodigo__inputColor{
+    width: 328px;
+  }
+
+  .editorCodigo__buttonSalvarProjeto{
+    width: 328px;
+  }
+}

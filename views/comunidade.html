@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraDev - Comunidade</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">  
+    <link rel="stylesheet" href="./../styles/reset.css">
+    <link rel="stylesheet" href="./../styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/dracula.min.css">
+    <link rel="stylesheet" href="./../styles/comunidade.css">
+    <link rel="stylesheet" href="./../styles/comunidade_responsivo.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img id="imgLogoAlura" src="./../images/Logo.svg" alt="Logo alura Dev" class="header__imgLogoAlura">
+        <input id="inputPesquisa" type="search" class="header__inputPesquisa" placeholder="Busque por algo" title="Campo texto para digitar um valor para buscar"/>
+        <img id="imgLupa" src="./../images/lupa.svg" hidden class="header__imgLupa" onClick="exibeCampoPesquisa(true)" alt="Lupa para exibir o campo de pesquisa">
+        <img id="imgIconeFecharLupa" src="./../images/fechar.svg" hidden class="header__imgIconeFecharLupa" onClick="exibeCampoPesquisa()" alt="Icone do menu no formato de X">
+        <div class="header__perfil">
+          <img id="imgFotoPerfil" src="https://avatars.githubusercontent.com/u/70358338?v=4" class="herader__perfil__imgFotoPerfil" alt="Foto do perfil">
+          <p id="pNomePerfil" class="header__perfil__pNomePerfil">Francisco</p>
+        </div>
+        <nav id="menuPerfil">
+          <img id="imgIconeHamburger" src="./../images/hamburger.svg" class="menuPerfil__imgIconeHamburger" onClick="exibeMenuPerfil(true)" alt="Icone do menu no formato de hamburguer">
+          <img id="imgIconeFechar" hidden src="./../images/fechar.svg" class="menuPerfil__imgIconeHamburger" onClick="exibeMenuPerfil()" alt="Icone do menu no formato de X">
+          <div id="headerMenuPerfil" class="header__menuPerfil hideMenu">
+            <div class="menu__div__editorCodigo">
+              <img id="imgIcoCode" src="./../images/Icon-code.svg" class="menu__div__imgIcoCode" alt="Icone do Editor de código">
+              <p id="pEditorCodigo" class="menu__div__editorCodigo__pEditorCodigo">Editor de código</p>
+            </div>
+            <div class="menu__div__comunidade">
+              <img id="imgIcoUsers" src="./../images/icon_users.svg" class="menu__div__imgIcoUsers" alt="Icone da Comunidade">
+              <p id="pIconeComunidade" class="menu__div__comunidade__pIconeComunidade">Comunidade</p>
+            </div>
+            <hr/>     
+            <div class="header__menuPerfil__Perfil">
+              <img id="imgFotoPerfil" src="https://avatars.githubusercontent.com/u/70358338?v=4" class="herader__perfil__imgFotoPerfil" alt="Foto do perfil">
+              <p id="pNomePerfil" class="header__perfil__pNomePerfil">Francisco</p>
+            </div>                   
+          </div>
+        </nav>
+      </header>
+      <nav id="menu">
+        <div class="menu__div">
+          <p class="menu__div__pMenu">MENU</p>
+          <div class="menu__div__editorCodigo">
+            <img id="imgIcoCode" src="./../images/Icon-code.svg" class="menu__div__imgIcoCode" alt="Icone do Editor de código">
+            <p id="pEditorCodigo" class="menu__div__editorCodigo__pEditorCodigo">Editor de código</p>
+          </div>
+          <div class="menu__div__comunidade">
+            <img id="imgIcoUsers" src="./../images/icon_users.svg" class="menu__div__imgIcoUsers" alt="Icone da Comunidade">
+            <p id="pIconeComunidade" class="menu__div__comunidade__pIconeComunidade">Comunidade</p>
+          </div>
+        </div>
+      </nav>
+      <section id="cards" class="cards">
+        <div class="cards__card">
+          <div id="cardMoldura" class="cards__cardMoldura">
+            <div class="cards__codigo">
+              <img src="./../images/mac_buttons.svg" class="cards__imgMacButton" alt="imagens de pontos simbolizando editor de código">
+              <pre>
+                <code id="cards__codeCodigo"></code>
+              </pre>
+            </div>
+          </div>
+          <p class="cards__titulo" title="Titulo do projeto">Título do projeto</p>
+          <p class="cards__descricao" title="Descrição do projeto">Essa é a descrição do meu projeto</p>
+          <div class="cards__actions">
+            <div class="cards__actionsGrupo">
+              <div class="cards__actions_awesome">
+                <img class="cards__actions_awesomeImg"  src="./../images/awesome.svg" alt="Comentários">
+                <label class="cards__actions_awesomeLabel">100</label>
+              </div>
+              <div class="cards__actions_heart">
+                <img class="cards__actions_heartImg" src="./../images/heart.svg" alt="Comentários">
+                <label  class="cards__actions_heartLabel" for="">100</label>
+              </div>
+            </div>
+            <div class="cards__actions_users">
+              <img class="cards__actions_usersImg" src="https://avatars.githubusercontent.com/u/70358338?v=4" alt="Comentários">
+              <p class="cards__actions_users">@Francisco</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards__card">
+          <div id="cardMoldura" class="cards__cardMoldura">
+            <div class="cards__codigo">
+              <img src="./../images/mac_buttons.svg" class="cards__imgMacButton" alt="imagens de pontos simbolizando editor de código">
+              <pre>
+                <code id="cards__codeCodigo"></code>
+              </pre>
+            </div>
+          </div>
+          <p class="cards__titulo" title="Titulo do projeto">Título do projeto</p>
+          <p class="cards__descricao" title="Descrição do projeto">Essa é a descrição do meu projeto</p>
+          <div class="cards__actions">
+            <div class="cards__actionsGrupo">
+              <div class="cards__actions_awesome">
+                <img class="cards__actions_awesomeImg"  src="./../images/awesome.svg" alt="Comentários">
+                <label class="cards__actions_awesomeLabel">100</label>
+              </div>
+              <div class="cards__actions_heart">
+                <img class="cards__actions_heartImg" src="./../images/heart.svg" alt="Comentários">
+                <label  class="cards__actions_heartLabel" for="">100</label>
+              </div>
+            </div>
+            <div class="cards__actions_users">
+              <img class="cards__actions_usersImg" src="https://avatars.githubusercontent.com/u/70358338?v=4" alt="Comentários">
+              <p class="cards__actions_users">@Francisco</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards__card">
+          <div id="cardMoldura" class="cards__cardMoldura">
+            <div class="cards__codigo">
+              <img src="./../images/mac_buttons.svg" class="cards__imgMacButton" alt="imagens de pontos simbolizando editor de código">
+              <pre>
+                <code id="cards__codeCodigo"></code>
+              </pre>
+            </div>
+          </div>
+          <p class="cards__titulo" title="Titulo do projeto">Título do projeto</p>
+          <p class="cards__descricao" title="Descrição do projeto">Essa é a descrição do meu projeto</p>
+          <div class="cards__actions">
+            <div class="cards__actionsGrupo">
+              <div class="cards__actions_awesome">
+                <img class="cards__actions_awesomeImg"  src="./../images/awesome.svg" alt="Comentários">
+                <label class="cards__actions_awesomeLabel">100</label>
+              </div>
+              <div class="cards__actions_heart">
+                <img class="cards__actions_heartImg" src="./../images/heart.svg" alt="Comentários">
+                <label  class="cards__actions_heartLabel" for="">100</label>
+              </div>
+            </div>
+            <div class="cards__actions_users">
+              <img class="cards__actions_usersImg" src="https://avatars.githubusercontent.com/u/70358338?v=4" alt="Comentários">
+              <p class="cards__actions_users">@Francisco</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards__card">
+          <div id="cardMoldura" class="cards__cardMoldura">
+            <div class="cards__codigo">
+              <img src="./../images/mac_buttons.svg" class="cards__imgMacButton" alt="imagens de pontos simbolizando editor de código">
+              <pre>
+                <code id="cards__codeCodigo"></code>
+              </pre>
+            </div>
+          </div>
+          <p class="cards__titulo" title="Titulo do projeto">Título do projeto</p>
+          <p class="cards__descricao" title="Descrição do projeto">Essa é a descrição do meu projeto</p>
+          <div class="cards__actions">
+            <div class="cards__actionsGrupo">
+              <div class="cards__actions_awesome">
+                <img class="cards__actions_awesomeImg"  src="./../images/awesome.svg" alt="Comentários">
+                <label class="cards__actions_awesomeLabel">100</label>
+              </div>
+              <div class="cards__actions_heart">
+                <img class="cards__actions_heartImg" src="./../images/heart.svg" alt="Comentários">
+                <label  class="cards__actions_heartLabel" for="">100</label>
+              </div>
+            </div>
+            <div class="cards__actions_users">
+              <img class="cards__actions_usersImg" src="https://avatars.githubusercontent.com/u/70358338?v=4" alt="Comentários">
+              <p class="cards__actions_users">@Francisco</p>
+            </div>
+          </div>
+        </div>
+        <div class="cards__card">
+          <div id="cardMoldura" class="cards__cardMoldura">
+            <div class="cards__codigo">
+              <img src="./../images/mac_buttons.svg" class="cards__imgMacButton" alt="imagens de pontos simbolizando editor de código">
+              <pre>
+                <code id="cards__codeCodigo"></code>
+              </pre>
+            </div>
+          </div>
+          <p class="cards__titulo" title="Titulo do projeto">Título do projeto</p>
+          <p class="cards__descricao" title="Descrição do projeto">Essa é a descrição do meu projeto</p>
+          <div class="cards__actions">
+            <div class="cards__actionsGrupo">
+              <div class="cards__actions_awesome">
+                <img class="cards__actions_awesomeImg"  src="./../images/awesome.svg" alt="Comentários">
+                <label class="cards__actions_awesomeLabel">100</label>
+              </div>
+              <div class="cards__actions_heart">
+                <img class="cards__actions_heartImg" src="./../images/heart.svg" alt="Comentários">
+                <label  class="cards__actions_heartLabel" for="">100</label>
+              </div>
+            </div>
+            <div class="cards__actions_users">
+              <img class="cards__actions_usersImg" src="https://avatars.githubusercontent.com/u/70358338?v=4" alt="Comentários">
+              <p class="cards__actions_users">@Francisco</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script src="./../scripts/scriptsGeral.js"></script>
+    <script src="./../scripts/index.js"></script>
+  </body>
+</html>
