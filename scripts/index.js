@@ -138,13 +138,3 @@ function gravarProjeto(){
     mensagemParaUsuario("O Projeto não foi Gravado!!", true)
   }
 }
-
-//Função que lista os projetos gravados no localStorage
-function listarProjeto(){
-  let aluraDevProjeto = retornarDadosDoLocalStorage()
-
-  for (let index in aluraDevProjeto) {
-    let projeto = JSON.parse(aluraDevProjeto[index])
-    console.log(projeto.nomeDoProjeto)
-  }
-}

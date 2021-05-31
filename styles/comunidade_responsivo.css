@@ -35,7 +35,7 @@
     width: 254px;
     height: 100vh;
     top: 95px;
-    left: 544px;
+    left: 514px;
     padding: 24px;
     margin-right: 12px;
     border-radius: 8px;
@@ -50,9 +50,47 @@
     display: flex;
   }
 
+  .menu__div__imgIcoCode{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    padding: 16px 14px;
+    border-radius: 16px;
+    background: #5081FB29;
+  }
+
+  a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* a:hover{
+    color: green;
+  }
+
+  a:hover:first-child .menu__div__imgIcoCode{
+    background-color: rgba(80, 129, 251, 0.64);
+  } */
+
+  a:visited{
+    color:white;
+  }
+
+  a:visited{
+    background-color: rgba(80, 129, 251, 1);
+  }
+
+  .menu__div__IcoCode{
+    width: 20px;
+    height: 16px;
+  }
+
   .menu__div__editorCodigo{
     top: 0px;
   }
+  
 
   hr{
     width: 206px;
@@ -100,6 +138,10 @@
   .cards__codigo{
     width: 343px;
     height: 264px;
+  }
+  
+  .cards__titulo, .cards__descricao{
+    max-width: 319px;
   }
 }
 
