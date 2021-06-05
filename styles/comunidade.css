@@ -86,6 +86,10 @@ header {
   padding: 0px;
 }
 
+.menu__div div{
+  margin-bottom: 8px;
+}
+
 .menu__div__pMenu{
   font-size: 12px;
   line-height: 18px;
@@ -94,40 +98,60 @@ header {
   margin-bottom: 8px;
 }
 
-.menu__div__editorCodigo{
+.menu__div__link {
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
 
-.menu__div__imgIcoCode{
-  width: 48px;
-  height: 48px;
-}
-
-.menu__div__editorCodigo__pEditorCodigo{
-  width: 125px;
-  height: 24px;
-}
-
-.menu__div__comunidade{
+.menu__div__imgVector{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 8px;
-}
-
-.menu__div__imgIcoUsers{
+  justify-content:center;
+  align-items:center;
   width: 48px;
   height: 48px;
+  border-radius: 16px;
+  background: rgba(80, 129, 251, 0.16);
 }
 
-.menu__div__comunidade__pIconeComunidade{
-  text-align: left;  
-  width: 125px;
+.menu__div__imgVector:hover{
+  background: rgba(80, 129, 251, 0.64);
+}
+
+.menu__div__img{
+  width: 20px;
+  height: 20px;
+}
+
+.menu__div__p{
+  width: 145px;
   height: 24px;
+  padding-left: 16px;
   opacity: 56%;
 }
+
+a:visited {
+  color: rgba(255, 255, 255, 1);
+  background: rgba(5, 529, 59, 1);
+}
+
+a:active .menu__div__imgVector {
+  background: rgba(80, 129, 251, 1);
+}
+
+a:active .menu__div__p {
+  opacity: 100%;
+}
+
+.ativoDiv {
+  background: rgba(80, 129, 251, 1);
+}
+
+.ativoP {
+  opacity: 100%;
+}
+
 
 .cards{
   position: absolute;
