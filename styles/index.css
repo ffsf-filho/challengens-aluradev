@@ -139,12 +139,16 @@ a:active .menu__div__imgVector {
   background: rgba(80, 129, 251, 1);
 }
 
+a:active .menu__div__p {
+  opacity: 100%;
+}
+
 .ativoDiv {
   background: rgba(80, 129, 251, 1);
 }
 
 .ativoP {
-  opacity: 1000%;
+  opacity: 100%;
 }
 
 .editorCodigo__labelMenssagem{
@@ -237,6 +241,7 @@ code, .hljs {
   box-shadow: 0 0 0 0;
   outline: 0;
   background-color: #141414;
+  white-space: pre-wrap;
 }
 
 /* .editorCodigo__textareaEditorCodigo:focus{ */
